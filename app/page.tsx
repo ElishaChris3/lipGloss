@@ -62,27 +62,6 @@ const SECTIONS: Section[] = [
         label: "What do you usually spend on one lipstick or gloss?",
         options: ["Under Rs. 500", "Rs. 500 to 1,000", "Rs. 1,000 to 2,000", "Rs. 2,000 to 3,500", "Over Rs. 3,500"],
       },
-      {
-        id: "buy_places",
-        type: "checkbox",
-        label: "Where do you usually buy lip products?",
-        hint: "pick any",
-        options: [
-          "Daraz",
-          "Instagram shops",
-          "Cosmetic stores (Imtiaz, Naheed, etc.)",
-          "Bagallery or Just4Girls",
-          "Brand outlets",
-          "From abroad",
-        ],
-      },
-      {
-        id: "fav_brands",
-        type: "text",
-        label: "Which lip brands do you love right now?",
-        placeholder: "e.g. Medora, Maybelline, Luscious...",
-        optional: true,
-      },
     ],
   },
   {
